@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woodcutter"
+    }
+  ],
+  "type": "woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "result": "silentgear:template_board",
+  "count": 8
+}

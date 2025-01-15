@@ -1,0 +1,69 @@
+{
+  "parent": "silentgear:standard_tools",
+  "criteria": {
+    "excavator": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silentgear:excavator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silentgear:hammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lumber_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silentgear:saw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.silentgear.big_job_tools.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "silentgear:hammer",
+      "nbt": "{Damage:0,SGear_Data:{Properties:{}}}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.silentgear.big_job_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "hammer"
+    ],
+    [
+      "excavator"
+    ],
+    [
+      "lumber_axe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

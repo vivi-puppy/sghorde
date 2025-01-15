@@ -1,0 +1,34 @@
+{
+  "parent": "silentgear:azure_silver",
+  "criteria": {
+    "fall_with_moonwalker_boots": {
+      "conditions": {
+        "type": "silentgear:fall_with_moonwalker",
+        "value": 1
+      },
+      "trigger": "silentlib:generic_int"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.silentgear.moonwalker.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "silentgear:boots",
+      "nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:armor_body\",Item:{Count:1b,id:\"silentgear:boot_plates\",tag:{Damage:0,Materials:[{ID:\"silentgear:azure_silver\"}]}}}]},Properties:{}}}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.silentgear.moonwalker.title"
+    }
+  },
+  "requirements": [
+    [
+      "fall_with_moonwalker_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

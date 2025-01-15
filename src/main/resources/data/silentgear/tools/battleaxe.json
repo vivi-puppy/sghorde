@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:tool",
+  "gear_type": "battleaxe",
+  "damage": 9.0,
+  "damage_multiplier": 1.5,
+  "attack_speed": 0.9,
+  "harvest_level": 3,
+  "harvest_speed": 6.0,
+  "enchantability": 14,
+  "durability": 1561,
+  "repair_efficiency": 2.0,
+  "traits": [
+    {
+      "name": "silentgear:heavy",
+      "level": 1
+    },
+    {
+      "name": "silentgear:reach",
+      "level": 1
+    }
+  ]
+}

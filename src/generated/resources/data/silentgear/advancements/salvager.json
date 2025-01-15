@@ -1,0 +1,38 @@
+{
+  "parent": "silentgear:crimson_iron",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silentgear:salvager"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.silentgear.salvager.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "silentgear:salvager"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.silentgear.salvager.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

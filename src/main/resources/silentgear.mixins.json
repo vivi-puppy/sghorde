@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.silentchaos512.gear.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "silentgear.refmap.json",
+  "mixins": [
+    "MixinItem",
+    "MixinItemEntity",
+    "MixinPowderSnowBlock"
+  ]
+}
